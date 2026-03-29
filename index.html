@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mening Quiz Saytim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Bilimingizni sinab ko'ring!</h1>
+        <div id="quiz">
+            <h2 id="question">Savol yuklanmoqda...</h2>
+            <div id="answer-buttons" class="btn-grid"></div>
+        </div>
+        <button id="next-btn" class="next-btn hide" style="display:none;">Keyingi savol</button>
+        <div id="result" style="display:none;">
+            <h2 id="score-text"></h2>
+            <button onclick="location.reload()">Qayta boshlash</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
